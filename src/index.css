@@ -264,6 +264,27 @@ img {
   max-height: 1.9em;
 }
 
+/* END CONTACTS */
+
+/* FOOTER */
+
+.footer {
+  /* display: flex; */
+  width: 100%;
+  background-color: #323232;
+  color: #14ffec;
+  margin-top: 5em;
+  padding: 1em;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+
+  border-bottom: 4px solid;
+  border-image: linear-gradient(90deg, #212121 10%, rgba(20, 255, 236, 1) 35%, rgba(0, 212, 255, 1) 100%) 10;
+}
+
+/* END FOOTER */
+
 @media (max-width: 1200px) {
   img {
     max-width: 100%;
